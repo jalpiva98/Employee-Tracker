@@ -1,4 +1,4 @@
--- Inserts names of departments into department table
+
 INSERT INTO department
   (name)
 VALUES
@@ -7,7 +7,7 @@ VALUES
   ('Structure'),
   ('Sales');
 
--- Inserts roles of employee into role table
+
 INSERT INTO role
   (title, salary, department_id)
 VALUES
@@ -16,7 +16,6 @@ VALUES
   ('Lightningh designer', 125000, 3),
   ('Project salesman', 200000, 4);
 
--- Inserts employee information into employee table
 INSERT INTO employee
   (first_name, last_name, role_id, manager_id)
 VALUES
